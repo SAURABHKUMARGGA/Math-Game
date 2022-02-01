@@ -24,6 +24,7 @@ body{
 #startmain h2{
     text-align: center;
     color: #fff;
+    padding:8px;
 }
 #sb{
     /* background-color: red; */
