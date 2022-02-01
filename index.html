@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Math Game</title>
+</head>
+<body>
+    
+    <div id="startmain">
+        <h2>Math Game</h2><hr>
+        <div id="sb">
+        <div id="s">Select time: 
+        <select id="times">
+            <option value="60">1 min</option>
+            <option value="120">2 min</option>
+            <option value="300">5 min</option>
+            <option value="600">10 min</option>
+        </select>
+    </div>
+        <div id="b">
+        <button id="startmainbtn">Start</button>
+    </div>
+</div>
+    </div>
+        <div id="main">
+           
+            <div id="gameshadow"></div>
+            <div id="score">Score: <span id="scorevalue">0</span></div>
+            <div id="tryagain">Try again</div>
+            <div id="correct">Correct</div>
+            <div id="question_box">
+                
+            </div>
+            <div id="answer_btn">
+                Click here to show answer?
+            </div>
+            <div id="answer_box">
+                <div class="answer" id="answer1"></div>
+                <div class="answer" id="answer2"></div>
+                <div class="answer" id="answer3"></div>
+                <div class="answer" id="answer4"></div>
+            </div>
+            <div id="start">Start Game</div>
+            <div id="next">Next</div>
+            <div id="time_remainings">Time Remainings: <span>600</span></div>
+            <div id="gameover">
+                <h2>Game Over</h2>
+                <table>
+                    <tr>
+                        <td>Game over reason</td>
+                        <td>: <span id="gameoverreason"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Total timme</td>
+                        <td>: <span id="sptime"></span> sec</td>
+                    </tr>
+                    <tr>
+                        <td>Score</td>
+                        <td>: <span id="realscore"></span></td>
+                    </tr>
+                </table>
+              
+                <div id="reset">Reset</div>
+
+            </div>
+            <div id="nextbox">
+                <p>Game over, are you sure then click OK otherwise Cancle amd enjoy the game.</p>
+                <div id="nextboxbtn">
+                    <button id="btnok" value="ok">OK</button>
+                    <button id="btncancle" value="cancle">CANCLE</button>
+                </div>
+            </div>
+        </div>
+    
+
+<script src="js/javascript.js" ></script>
+</body>
+</html>
