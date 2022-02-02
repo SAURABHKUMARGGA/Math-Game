@@ -78,6 +78,7 @@ box-shadow: 0px 0px rgb(35, 35, 36);
     display: none;
     background-color: rgb(79, 122, 241);
     width: 70%;
+    min-width: 230px;
     min-height: 400px;
     height: 400px;
     position: relative;
@@ -332,7 +333,7 @@ box-shadow: 0px 0px rgb(35, 35, 36);
 #nextbox{
     background-image:linear-gradient(140deg ,#4250b7,#46bbaf);
     width: 90%;
-    height: 30%;
+   
     position: absolute;
     left: 50%;
     top:50%;
@@ -386,8 +387,23 @@ box-shadow: 0px 0px rgb(35, 35, 36);
         top:400px;
         left: 50%;
     }
+    
     #main{
         min-height: 450px;
         height: 450px;
     }
+    #next:hover{
+        top:403px;
+    }
+   
+    #nextboxbtn{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #nextbox button{
+        margin: 10px auto;
+    }
+    
   }
